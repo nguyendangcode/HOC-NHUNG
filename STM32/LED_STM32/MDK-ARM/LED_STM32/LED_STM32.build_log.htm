@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\21146\Desktop\HOC NHUNG\STM32\LED_STM32\MDK-ARM\LED_STM32.uvprojx
+Project File Date:  08/18/2025
+
+<h2>Output:</h2>
+Build target 'LED_STM32'
+assembling startup_stm32f103xb.s...
+compiling main.c...
+../Core/Src/main.c(98): warning:  #188-D: enumerated type mixed with another type
+        if(HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_2)==1) HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,1);
+../Core/Src/main.c(99): warning:  #188-D: enumerated type mixed with another type
+        else HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,0);
+../Core/Src/main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=2680 RO-data=304 RW-data=16 ZI-data=1632  
+FromELF: creating hex file...
+"LED_STM32\LED_STM32.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.0.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\21146\Desktop\HOC NHUNG\STM32\LED_STM32\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
